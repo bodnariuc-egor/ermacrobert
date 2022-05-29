@@ -3,7 +3,7 @@
 <p>Stack:</p>
   <ol>
   <li>HTML</li>
-<li>CSS</li>
+<li>SCSS</li>
 <li>Vanilla JavaScript</li>
 <li>GULP</li>
 <li>Webpack</li>
