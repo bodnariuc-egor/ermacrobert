@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<title>EmRo - tattoo artist</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220529130645">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221117101551">
 	<link rel="icon" href="img/emro_favicon_512x512.png" type="image/png" sizes="512x512">
 	<link rel="icon" href="img/emro_favicon_128x128.png" type="image/png" sizes="128x128">
 	<link rel="icon" href="img/emro_favicon_64x64.png" type="image/png" sizes="64x64">
@@ -19,20 +19,33 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
-			<div class="header__bg-spot"><picture><source srcset="img/decor_spot_bg.webp" type="image/webp"><img src="img/decor_spot_bg.png" alt="Green spot decor" class="bg-spot"></picture></div>
+		<header class="header" data-scroll="120">
 			<div class="header__container">
-				<div class="header__top-row">
-					<h2 class="top-row__item top-row__title">tattoo artist</h2>
-					<a href="https://www.instagram.com/em__ro/" target="_blank" class="top-row__item top-row__link">@em_ro</a>
+				<div class="header__fixed-navbar">
+					<div class="header__top-row">
+						<h2 class="top-row__item top-row__title">tattoo artist</h2>
+						<div class="socials">
+							<a href="https://www.instagram.com/em__ro/" target="_blank" class="top-row__item top-row__link">
+								<img src="img/icon-instagram.svg" alt="Instagram icon" class="social__icons">
+							</a>
+							<a href="https://www.tiktok.com/@em_ro15" target="_blank" class="top-row__item top-row__link">
+								<img src="img/icon-tiktok.svg" alt="Instagram icon" class="social__icons">
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="header__main-row">
+			</div>
+		</header>
+		<div class="intro">
+			<div class="intro__container">
+				<div class="intro__bg-spot"><picture><source srcset="img/decor_spot_bg.webp" type="image/webp"><img src="img/decor_spot_bg.png" alt="Green spot decor" class="bg-spot"></picture></div>
+				<div class="intro__main-row">
 					<div class="decor__x-brush" data-prlx-mouse><picture><source srcset="img/decor_x_brush.webp" type="image/webp"><img src="img/decor_x_brush.png" alt="X brush decor" class="x-brush"></picture></div>
 					<div class="decor__hd-circle"><img src="img/decor_header_circle.svg" alt="Circle decor" class="hd-circle"></div>
-					<h1 class="header__title">Ermac<br>Robert</h1>
+					<h1 class="intro__title">Ermac<br>Robert</h1>
 					<a href="https://www.instagram.com/em__ro/" target="_blank" class="menu__link menu__link-above">Appointment</a>
 				</div>
-				<div class="header__nav nav">
+				<div class="intro__nav nav">
 					<hr class="nav__line">
 					<nav class="menu">
 						<ul class="menu__list">
@@ -43,7 +56,7 @@
 					</nav>
 				</div>
 			</div>
-		</header>
+		</div>
 		<main class="page">
 			<div class="page__container">
 				<section class="about-me">
@@ -58,8 +71,7 @@
 						<div class="decor__about-x--mobile"><img src="img/decor_attent_x.svg" alt="Decor letter X" class="inner-img"></div>
 					</div>
 					<div class="about-me__text" data-watch data-watch-once>
-						<p>My name is Robert, but my artist name is EmRo. 
-							I'm 31 and grew up in a small village in Moldova. I moved to Switzerland, Frauenfeld a year ago.
+						<p>My name is Robert, but my artist name is EmRo. I'm 31 and grew up in a small village in Moldova. I moved to Switzerland, Frauenfeld a year ago.
 						</p>
 						<br>
 						<p>Drawing was my favorite hobby from childhood on. At the age of 17 I’ve build
@@ -281,7 +293,11 @@
 				<div class="footer__wrapper">
 					<picture><source srcset="img/footer_trademark.webp" type="image/webp"><img src="img/footer_trademark.png" alt="All rights reserved" class="footer__image"></picture>
 				</div>
-
+				<div class="footer__action-call">
+					<a href="tel:+41797143775" class="action-call__link">
+						<img src="img/icon-phone.svg" alt="Phone icon" class="action-call__image pulse">
+					</a>
+				</div>
 			</div>
 		</footer>
 	</div>
@@ -295,7 +311,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20220529130645"></script>
+	<script src="js/app.min.js?_v=20221117101551"></script>
 </body>
 
 </html>
